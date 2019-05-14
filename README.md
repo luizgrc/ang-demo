@@ -4,6 +4,12 @@ Cambiar Version de Angular
 npm unistall -g angular -cli
 npm cache clean --force
 npm install @angular/cli@1.68
+#Sesion 6
+
+Cambiar Version de Angular
+npm unistall -g angular -cli
+npm cache clean --force
+npm install @angular/cli@1.68
 
 
 ------
@@ -15,7 +21,6 @@ ng serve --port 4500
 Compilar y abrir proyecto en navegador
 ng serve --open
 
-=======
 # AngDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
@@ -43,4 +48,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 
