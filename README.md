@@ -1,25 +1,69 @@
-#Sesion 6
 
-Cambiar Version de Angular
-npm unistall -g angular -cli
-npm cache clean --force
-npm install @angular/cli@1.68
-#Sesion 6
+# Sesion 6
 
-Cambiar Version de Angular
-npm unistall -g angular -cli
-npm cache clean --force
-npm install @angular/cli@1.68
+Cambiar Version de Angular.
+npm unistall -g angular -cli.
+npm cache clean --force.
+npm install @angular/cli@1.68.
 
 
 ------
-Inciar comando cuando no tienes el node_modules
-npm install
-Cancelar terminal Ctrl + c
-Iniciar Proyecto en puerto diferente
-ng serve --port 4500
-Compilar y abrir proyecto en navegador
-ng serve --open
+Inciar comando cuando no tienes el node_modules.
+npm install.
+Cancelar terminal Ctrl + c.
+Iniciar Proyecto en puerto diferente.
+ng serve --port 4500.
+Compilar y abrir proyecto en navegador.
+ng serve --open.
+
+# Anotes Git
+
+Iniciar proyecto Git Local.
+git init.
+
+git add --A.
+
+git status.
+
+git commit --m 'Mi Primer commit'.
+
+Agregar un repositorio git remoto al proyecto local.
+
+git remote add origin https://github.com/luizgrc/mediaapp-backend.git.
+
+Mandar nuestro proyecto local al remoto.
+git push origin master.
+
+Obtener cambios de branch del repositorio remoto
+git fetch.
+
+Combinar branchs.
+git merge origin/master.
+
+Regresar al commit anterior
+git reset --hard
+---------------------
+
+## Posibles Errores
+
+git push origin master.
+! Rejected master -> master (fetch first).
+
+git pull origin master.
+
+! Rejected master -> master(non-fast-forward).
+
+git merge origin/master.
+faltal: refusing to merge unrelated histories.
+Solucion:.
+
+git pull --rebase origin master
+
+
+
+---------------------
+
+
 
 # AngDemo
 
