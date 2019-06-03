@@ -1,5 +1,35 @@
 
 # Sesion 6
+1:42
+## Librerias para Angular
+
+primeng  -- https://www.primefaces.org/primeng/
+
+ng bootstrap -- https://ng-bootstrap.github.io/#/home
+
+Angular Material -- https://material.angular.io/
+
+## Instalar Librerias
+
+Instalacion Angular Material cdk(pre dependencia , pre libreria para que angular material funciones) solo una vez al iniciar el proyecto --save lo guarda en package.json
+
+npm install @angular/cdk --save 
+
+Instalacion Angular Material Agregando los componentes necesarios para usarlo y dar inicio al asistente.
+HammerJS es para funciones de click presionado por varios segundos (No),
+Browser Animations (Yes)
+
+ng add @angular/material
+
+## Comandos Angular
+
+Crear componente ng generate component <component-name>
+
+ng g c <nombre>
+
+Crear componente sin archivo spec
+
+ng g c --spec=false
 
 ## Cambiar Version de Angular
 
@@ -30,6 +60,7 @@ ng serve --open
 # Anotes Git
 
 ## Iniciar proyecto Git Local.
+
 git init
 
 git add --A
@@ -42,17 +73,39 @@ git commit --m 'Mi Primer commit'
 
 git remote add origin https://github.com/luizgrc/mediaapp-backend.git
 
-## Mandar nuestro proyecto local al remoto
+## Obtener el nombre de los repositorios remotos
+
+git remote -v
+
+## Mandar nuestro rama local master al remoto en rama remota origin 
+
 git push origin master
 
-## Obtener cambios de branch del repositorio remoto
-git fetch.
+## Mandar nuestro proyecto local al remoto en la rama fork
+
+git push fork 
 
 ## Combinar branchs.
+
 git merge origin/master.
 
 ## Regresar al commit anterior
+
 git reset --hard
+
+## Obtener ultimas versiones de las ramas remotas
+
+git fetch
+
+## Actualizar tus ramas locales de las remotas
+
+git pull
+
+## Ver Log grafico
+
+git log --graph --oneline --all
+
+
 
 ---------------------
 

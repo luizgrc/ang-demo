@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hola Coders';
+
+  mensajeA : string;
+
+  recepcionarEmisor(e : any){
+    this.mensajeA = e;
+
+
+  }
 }
